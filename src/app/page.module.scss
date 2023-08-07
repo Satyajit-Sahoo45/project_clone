@@ -1,0 +1,53 @@
+.box_container {
+  position: absolute;
+  left: 13rem;
+  padding-left: 1.5rem;
+  overflow: hidden;
+
+  .corousel {
+    display: flex;
+    gap: 1.5rem;
+    overflow: hidden;
+
+    .box {
+      height: max-content;
+      width: max-content;
+      border: 1px solid beige;
+      box-shadow: 2px 2px 2px 2px rgb(187, 206, 207);
+      border-radius: 6px;
+      overflow: hidden;
+      margin: 10px;
+
+      .box_heading {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: beige;
+        position: relative;
+        padding: 1rem;
+        text-align: center;
+
+        .box_tag {
+          position: absolute;
+          top: 0;
+          left: 0;
+          font-size: 14px;
+          background: #000;
+          color: white;
+          padding: 2px;
+        }
+
+        .heading {
+          font-size: 2rem;
+          text-transform: uppercase;
+          height: 100%;
+          width: 100%;
+        }
+      }
+
+      .box_info {
+        padding-left: 8px;
+      }
+    }
+  }
+}

@@ -1,0 +1,56 @@
+.course {
+  position: absolute;
+  left: 13rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+  .bread_crumb {
+    font-weight: 300;
+    font-size: 14px;
+  }
+
+  .header {
+    font-weight: 600;
+  }
+
+  .card_container {
+
+    .review_container{
+
+        .review_card{
+            height: max-content;
+            width: fit-content;
+            border-radius: 6px;
+            border: 1px solid black;
+            display: flex;
+            overflow: hidden;
+
+            .review{
+                height: max-content;
+                // width: fit-content;
+                display: flex;
+
+                .img{
+                    padding: 12px;
+                    display: flex;
+                    font-size: 1.3rem;
+                    flex-direction: column;
+                    background-color: beige;
+                    text-align: center;
+                }
+
+                .review_content{
+                    padding: 1.5rem;
+                    height: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    gap: 1.5rem;
+                }
+            }
+        }
+    }
+  }
+}
